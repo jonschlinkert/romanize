@@ -1,0 +1,82 @@
+{
+  "name": "romanize",
+  "description": "Convert arabic numbers to roman numerals (useful for books, outlines, documentation, slide decks, etc)",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/romanize",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/romanize.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/romanize/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jonschlinkert/romanize/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "devDependencies": {
+    "verb-tag-jscomments": ">= 0.2.0",
+    "verb": ">= 0.2.6",
+    "mocha": "*"
+  },
+  "keywords": [
+    "1-10",
+    "1-1000",
+    "1-30",
+    "10",
+    "100",
+    "1000",
+    "arabic",
+    "calculator",
+    "chart",
+    "clock",
+    "conversion",
+    "convert",
+    "converter",
+    "date",
+    "dates",
+    "integer",
+    "iv",
+    "ix",
+    "javascript",
+    "l",
+    "math",
+    "mean",
+    "node.js",
+    "number",
+    "numbers",
+    "numeral",
+    "numerals",
+    "roman",
+    "translation",
+    "translator",
+    "util",
+    "utility",
+    "v",
+    "vi",
+    "vii",
+    "viii",
+    "x",
+    "xi",
+    "xiii",
+    "xiv",
+    "xix",
+    "xl",
+    "xlviii",
+    "xv",
+    "xvi"
+  ]
+}
