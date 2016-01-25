@@ -20,59 +20,26 @@
     "test": "mocha"
   },
   "devDependencies": {
-    "verb": ">= 0.2.6",
     "mocha": "*"
   },
   "keywords": [
-    "1-10",
-    "1-1000",
-    "1-30",
-    "10",
-    "100",
-    "1000",
     "arabic",
-    "calculator",
-    "chart",
-    "clock",
-    "conversion",
-    "convert",
-    "converter",
-    "date",
-    "dates",
-    "integer",
-    "iv",
-    "ix",
-    "javascript",
-    "l",
-    "math",
-    "mean",
-    "node.js",
     "number",
     "numbers",
     "numeral",
     "numerals",
-    "roman",
-    "translation",
-    "translator",
-    "util",
-    "utility",
-    "v",
-    "vi",
-    "vii",
-    "viii",
-    "x",
-    "xi",
-    "xiii",
-    "xiv",
-    "xix",
-    "xl",
-    "xlviii",
-    "xv",
-    "xvi"
+    "roman"
   ],
   "verb": {
     "related": {
-      "list": []
-    }
+      "list": [
+        "deromanize"
+      ]
+    },
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "toc": false,
+    "layout": "default"
   }
 }
