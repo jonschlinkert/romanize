@@ -11,8 +11,8 @@
 var assert = require('assert');
 var romanize = require('./');
 
-describe('romanize', function () {
-  it('should convert numbers to roman numerals', function () {
+describe('romanize', function() {
+  it('should convert numbers to roman numerals', function() {
     assert.equal(romanize(1), 'I');
     assert.equal(romanize(2), 'II');
     assert.equal(romanize(3), 'III');

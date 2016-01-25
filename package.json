@@ -3,27 +3,23 @@
   "description": "Convert arabic numbers to roman numerals (useful for books, outlines, documentation, slide decks, etc)",
   "version": "0.1.1",
   "homepage": "https://github.com/jonschlinkert/romanize",
-  "author": {
-    "name": "Jon Schlinkert",
-    "url": "https://github.com/jonschlinkert"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/jonschlinkert/romanize.git"
-  },
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/romanize",
   "bugs": {
     "url": "https://github.com/jonschlinkert/romanize/issues"
   },
   "license": "MIT",
+  "files": [
+    "index.js"
+  ],
   "main": "index.js",
   "engines": {
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "mocha -R spec"
+    "test": "mocha"
   },
   "devDependencies": {
-    "verb-tag-jscomments": ">= 0.2.0",
     "verb": ">= 0.2.6",
     "mocha": "*"
   },
@@ -73,5 +69,10 @@
     "xlviii",
     "xv",
     "xvi"
-  ]
+  ],
+  "verb": {
+    "related": {
+      "list": []
+    }
+  }
 }
