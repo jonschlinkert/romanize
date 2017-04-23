@@ -1,6 +1,6 @@
 # romanize [![NPM version](https://img.shields.io/npm/v/romanize.svg?style=flat)](https://www.npmjs.com/package/romanize) [![NPM monthly downloads](https://img.shields.io/npm/dm/romanize.svg?style=flat)](https://npmjs.org/package/romanize)  [![NPM total downloads](https://img.shields.io/npm/dt/romanize.svg?style=flat)](https://npmjs.org/package/romanize) [![Linux Build Status](https://img.shields.io/travis/jonschlinkert/romanize.svg?style=flat&label=Travis)](https://travis-ci.org/jonschlinkert/romanize)
 
-> Convert arabic numbers to roman numerals (useful for books, outlines, documentation, slide decks, etc)
+> Convert numbers to roman numerals (useful for books, outlines, documentation, slide decks, etc)
 
 ## Install
 

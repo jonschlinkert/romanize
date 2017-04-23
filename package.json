@@ -1,7 +1,7 @@
 {
   "name": "romanize",
-  "description": "Convert arabic numbers to roman numerals (useful for books, outlines, documentation, slide decks, etc)",
-  "version": "1.0.0",
+  "description": "Convert numbers to roman numerals (useful for books, outlines, documentation, slide decks, etc)",
+  "version": "1.1.0",
   "homepage": "https://github.com/jonschlinkert/romanize",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "contributors": [
