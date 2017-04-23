@@ -4,6 +4,10 @@
   "version": "0.1.2",
   "homepage": "https://github.com/jonschlinkert/romanize",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "contributors": [
+    "Jon Schlinkert <jon.schlinkert@sellside.com> (http://twitter.com/jonschlinkert)",
+    "Kyle Mitchell <kyle@kemitchell.com> (https://kemitchell.com)"
+  ],
   "repository": "jonschlinkert/romanize",
   "bugs": {
     "url": "https://github.com/jonschlinkert/romanize/issues"
@@ -20,7 +24,8 @@
     "test": "mocha"
   },
   "devDependencies": {
-    "mocha": "*"
+    "gulp-format-md": "^0.1.12",
+    "mocha": "^3.2.0"
   },
   "keywords": [
     "arabic",
@@ -28,18 +33,27 @@
     "numbers",
     "numeral",
     "numerals",
-    "roman"
+    "roman",
+    "romanize"
   ],
   "verb": {
-    "related": {
-      "list": [
-        "deromanize"
-      ]
-    },
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
     "plugins": [
       "gulp-format-md"
     ],
-    "toc": false,
-    "layout": "default"
+    "related": {
+      "list": [
+        "deromanize",
+        "repeat-string",
+        "to-regex-range"
+      ]
+    },
+    "lint": {
+      "reflinks": true
+    }
   }
 }
